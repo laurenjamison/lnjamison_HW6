@@ -1,0 +1,139 @@
+body {
+  font-size: 1.25em;
+  margin: 25px;
+  color: #190714;
+}
+
+h1, h3, h2, h4 {
+  color: #190714;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+/* center content on screen */
+.wrap {
+  margin: 0 auto;
+  width: 90%;
+}
+
+main {
+  width: 70%;
+  float: left;
+  padding: 10px 25px 10px 10px;
+}
+
+aside.right {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+
+article.sidebar {
+  border-left: 1px solid green;
+  border-bottom: 1px solid green;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+hr {
+  border-top: 5px solid black;
+}
+
+figure {
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding: 0;
+}
+
+figcaption {
+  font-style: italic;
+  font-weight: normal;
+}
+
+img.responsive-main {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+img.responsive-sidebar {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+  color: #000000;
+}
+
+th.day {
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 10px;
+  border: solid;
+}
+
+th.course {
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 10px;
+  border: solid;
+}
+
+td {
+  padding: 2px 2px 2px 2px;
+  vertical-align: middle;
+  text-align: center;
+  border: 2px solid #000000;
+}
+
+caption {
+  color: #190714;
+  font-size: 1.0em;
+  font-style: italic;
+  font-family: Times New Roman;
+  font-weight: normal;
+  caption-side: bottom;
+}
+
+
+#menubar {
+  background-color: #088A68;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+ul#navlist {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+#navlist li {
+  display: inline-table;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px;
+}
+
+#navlist a {
+  padding: 8px 20px;
+}
+
+#navlist a:link, #navlist a:visited {
+  color: #fff;
+  background-color: #088A68;
+}
+
+#navlist a:hover {
+  color: white;
+  background-color: #088A68;
+}
+
+body#home a#homenav, body#schedule a#schedulenav {
+  color: #088A68;
+  background-color: white;
